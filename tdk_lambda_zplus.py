@@ -14,7 +14,7 @@ class DeviceProtocol(BaseDummyProtocol):
         # self.position = 1
         self.replies = {
             r"\*OPC\?": "1",
-            r"\*IDN\?": "Mo,dummyzplus,1234,4.30.10.98",
+            r"\*IDN\?": "Manufacturer,zplus_dummy,1234,4.30.10.98",
             r"MEAS:CURR\?": (self.get_current, ""),
             r"MEAS:VOLT\?": (self.get_voltage, ""),
             r"CURR (?P<current>.*)": (self.set_current, None),
