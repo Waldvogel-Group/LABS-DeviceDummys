@@ -15,12 +15,12 @@ globalLogBeginner.beginLoggingTo([app_observer])
 
 if __name__ == "__main__":
     ports = {
-        12344: "azuravudummy",
-        12345: "azuravudummy",
-        12346: "zplusdummy",
-        12347: "regloiccdummy",
-        12348: "julaboa40",
-        12349: "fractioncollector",
+        12344: "knauer_azura_vu_4_1",
+        12345: "knauer_azura_vu_4_1",
+        12346: "tdk_lambda_zplus",
+        12347: "ismatec_reglo_icc",
+        12348: "julabo_presto_a40",
+        12349: "lambda_instruments_omnicoll",
         12350: "airvalve",
     }
 
